@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF;
+    font-family: "Catamaran", sans-serif;
+    font-size: medium;
+}
+
+
+/********** HEADER **********/
+#header{
+    height: 420px;
+    text-align: center;
+    padding-top: 10%;
+}
+.bg-header{
+	background-image: url("../imagens/bg_header.png");
+	background-attachment: scroll;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.titulo a{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+
+/********** MAIN **********/
+#main{
+    margin-top: -350px;
+    padding-bottom: 50px;
+    min-height: 400px;
+}
+.main{
+    background-color: #FFF;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 4px;
+}
+.content{
+    padding: 5%;
+}
+.article{
+    margin: 2rem 0 1rem 0;
+}
+
+/********** FOOTER **********/
+#footer{
+    height: 200px;
+    text-align: center;
+}
+.bg-footer{
+    background-image: url("../imagens/bg_footer.png");
+	background-attachment: scroll;
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+footer section.main{
+    position: relative;
+    float: left;
+    margin-top: -50px;
+    min-height: 200px;
+}
+footer section.main div.content{
+    padding-top: 0;
+    position: absolute;
+    bottom: 0;
+}
+footer section.main div.coluna-50{
+    position: relative;
+    float: left;
+    padding: 0%;
+    width: 50%;
+    background-color: #FFF;
+}
+footer section.main div.coluna-50 img{
+    width: 90%;
+    margin: 5% 0%;
+}
