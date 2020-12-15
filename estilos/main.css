@@ -199,8 +199,9 @@ body{
 
 /********** FOOTER **********/
 #footer{
-    height: 200px;
+    height: 250px;
     text-align: center;
+
 }
 .bg-footer{
     background-image: url("../imagens/bg_footer.png");
@@ -230,4 +231,72 @@ footer section.main div.coluna-50{
 footer section.main div.coluna-50 img{
     width: 90%;
     margin: 5% 0%;
+}
+
+/********** RESPONSIVIDADE **********/
+@media screen and (max-width: 1680px) {
+
+    html {
+        
+    }
+
+}
+@media screen and (max-width: 1280px) {
+
+    html {
+        
+    }
+    body {
+        background-attachment: scroll;
+        background-size: auto;
+        background-position: top;
+    }
+
+}
+@media screen and (max-width: 980px) {
+
+    html {
+        font-size: 12pt;
+    }
+    body:after {
+        background-attachment: scroll;
+        background-position: top;
+        background-size: 150%;
+    }
+    .main{
+        margin: 0 auto;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 2rem;
+		background-color: #fff;
+        border-radius: 0;
+    }
+    .content header {
+        /*padding: 2rem 2rem;*/
+    }
+    #footer{
+        padding: 1rem 0 0.1rem 0 ;
+    }
+    
+
+}
+@media screen and (max-width: 736px) {
+
+    html {
+        font-size: 12pt;
+    }
+    .titulo{
+        margin: 0 0 1.5rem 0;
+    }
+    .content {
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    html, body {
+        min-width: 320px;
+    }
+
 }
