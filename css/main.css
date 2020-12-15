@@ -16,7 +16,7 @@ body{
     padding-top: 10%;
 }
 .bg-header{
-	background-image: url("../imagens/bg_header.png");
+	background-image: url("../img/uni1/bg_header.png");
 	background-attachment: scroll;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -51,6 +51,26 @@ body{
 .article{
     margin: 2rem 0 1rem 0;
 }
+.divisor{
+	margin-top: 60px;
+}
+.divisor .texto-separador {
+	background-color: #2a5caa;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+	margin-top: -70px;
+	margin-bottom: 0px;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;	 
+ }
+ .divisor hr {
+	border: 0;
+    border-bottom: solid 3px;
+    border-bottom-color: gray;
+    margin: 40px 0;
+ }
 
     /********** CONTENT HEADER (HAMBURGUER, TITULO, MENU) **********/
         .content header{
@@ -202,7 +222,7 @@ body{
 
 }
 .bg-footer{
-    background-image: url("../imagens/bg_footer.png");
+    background-image: url("../img/uni1/bg_footer.png");
 	background-attachment: scroll;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -228,26 +248,21 @@ footer section.main div.coluna-50{
 footer section.main div.coluna-50 img{
     width: 90%;
     margin: 5% 0%;
+    
 }
 #footer hr {
     border: 0;
     border-bottom: solid 3px;
     border-bottom-color: gray;
+    margin-bottom: 20px;
 }
 
 /********** RESPONSIVIDADE **********/
 @media screen and (max-width: 1680px) {
 
-    html {
-        
-    }
-
 }
 @media screen and (max-width: 1280px) {
 
-    html {
-        
-    }
     body {
         background-attachment: scroll;
         background-size: auto;
@@ -297,6 +312,7 @@ footer section.main div.coluna-50 img{
         padding-top: 2%;
         position: relative;
         bottom: 0;
+        padding-bottom: 5%;
     }
     footer section.main div.coluna-50{
         position: relative;
