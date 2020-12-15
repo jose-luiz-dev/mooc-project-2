@@ -53,14 +53,18 @@ body{
     margin: 2rem 0 1rem 0;
 }
 
-        /********** DROPDOWN **********/
+    /********** CONTENT HEADER (HAMBURGUER, TITULO, MENU) **********/
+        .content header{
+            position: relative;
+        }
         .hamburguer {
+            position: absolute;
+            display: block;
             width: 20px;
             height: 20px;
-            display: block;
-            position: relative;
             background: none;
-            margin: 0 0 10px 10px;
+            margin: 10px;
+            margin-top: 5%;
         }
         .hamburguer:after, .hamburguer:before, .hamburguer span, .hamburguer label {
             content: ' ';
@@ -112,10 +116,10 @@ body{
         #change-hamburguer:checked ~ .hamburguer span {
             opacity: 0;
         }#change-hamburguer:checked ~ .menu {
-            max-height: 400px; /* estava limitado a 200px e não mostrava todas as 7 opçoes do menu*/
-            margin-top: 20px;
+            max-height: 400px;
         }
         .menu {
+            position: relative;
             max-height: 0;
             height: auto;
             background: #2a5caa;
@@ -131,7 +135,7 @@ body{
         .menu a {
             text-decoration: none;
             color: #fff;
-            padding: 10px; /*removi os '5px' para melhorar espaçamento entre os links*/
+            padding: 10px;
             display: block;
             text-transform: uppercase;
             border-left: 5px solid #000;
@@ -141,6 +145,19 @@ body{
             color: #e57373;
             background: #222;
         }
+        h1 {
+            position: relative;
+            margin: -5% 0 10px 50px;
+            margin-bottom: 10px;
+            padding-top: 5%;
+            padding-bottom: .75rem;
+            font-weight: 700;
+            text-decoration: none;
+            font-family: "Catamaran", sans-serif;
+            font-size: 1.5rem;
+		    color: #2a5caa;
+        }
+    /**********/
 
 
 /********** FOOTER **********/
