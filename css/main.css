@@ -141,7 +141,7 @@ body{
             border: 2px solid #2a5caa;
         }
         .menu {
-            position: relative;
+            position: absolute;
             max-height: 0;
             height: auto;
             background: #FFF;
@@ -153,6 +153,7 @@ body{
             font-size: 15px;
             width: 60%;
             border-radius: 2%;
+            z-index: 99999;
         }
         .menu a {
             text-decoration: none;
@@ -343,6 +344,7 @@ footer section.main div.coluna-50 img{
         width: 100%;
     }
     .menu {
+        position: relative;
         width: 100%;
     }
 }
